@@ -1,6 +1,6 @@
 {
   "name": "tp-feature-branch-name-cli",
-  "version": "0.1.0",
+  "version": "0.0.0",
   "description": "Get the name for a feature branch of a TP user story/bug through the command-line",
   "keywords": [
     "cli-app",
