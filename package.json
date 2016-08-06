@@ -1,0 +1,50 @@
+{
+  "name": "tp-feature-branch-name-cli",
+  "version": "0.1.0",
+  "description": "Get the name for a feature branch of a TP user story/bug through the command-line",
+  "keywords": [
+    "cli-app",
+    "cli",
+    "tp",
+    "target",
+    "process",
+    "api",
+    "request",
+    "util",
+    "utility"
+  ],
+  "bugs": "https://github.com/alebelcor/tp-feature-branch-name-cli/issues",
+  "license": "MIT",
+  "author": {
+    "name": "Alejandro Beltrán",
+    "email": "alebelcor@gmail.com",
+    "url": "https://github.com/alebelcor"
+  },
+  "files": [
+    "cli.js",
+    "lib"
+  ],
+  "main": "cli.js",
+  "bin": {
+    "tp-feature-branch-name": "cli.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/alebelcor/tp-feature-branch-name-cli.git"
+  },
+  "scripts": {
+    "test": "nyc ava"
+  },
+  "dependencies": {
+    "dashify": "^0.2.2",
+    "got": "^6.3.0",
+    "meow": "^3.7.0"
+  },
+  "devDependencies": {
+    "ava": "^0.15.2",
+    "nyc": "^7.1.0"
+  },
+  "engines": {
+    "node": ">=4"
+  }
+}
