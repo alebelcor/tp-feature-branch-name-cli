@@ -4,6 +4,8 @@
 
 [![npm version](https://img.shields.io/npm/v/tp-feature-branch-name-cli.svg)](https://npmjs.org/package/tp-feature-branch-name-cli)
 [![Build Status](https://img.shields.io/travis/alebelcor/tp-feature-branch-name-cli/master.svg)](https://travis-ci.org/alebelcor/tp-feature-branch-name-cli)
+[![Test coverage](https://img.shields.io/coveralls/alebelcor/tp-feature-branch-name-cli.svg)](https://coveralls.io/github/alebelcor/tp-feature-branch-name-cli)
+
 
 ## Install
 
