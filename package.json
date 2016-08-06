@@ -33,7 +33,8 @@
     "url": "https://github.com/alebelcor/tp-feature-branch-name-cli.git"
   },
   "scripts": {
-    "test": "nyc ava"
+    "test": "nyc ava",
+    "coveralls": "nyc report --reporter=text-lcov | coveralls"
   },
   "dependencies": {
     "dashify": "^0.2.2",
@@ -42,6 +43,7 @@
   },
   "devDependencies": {
     "ava": "^0.15.2",
+    "coveralls": "^2.11.12",
     "nyc": "^7.1.0"
   },
   "engines": {
