@@ -4,7 +4,6 @@
 
 const got = require('got');
 const meow = require('meow');
-const dashify = require('dashify');
 
 const getGeneralUrl = require('./lib/get-general-url');
 const getGotOptions = require('./lib/get-got-options');
